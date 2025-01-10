@@ -42,6 +42,9 @@
     border-radius: 10px;
 }
 
+/* banner section design
+
+*/
 .banner-section{
     display: flex;
     justify-content: center;
@@ -82,4 +85,144 @@
     border: none;
     border-radius: 10px;
     margin-top: 24px;
+}
+
+/* vision of future design */
+
+.vision-of-future{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.vision-of-future .vision-text h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vision-of-future .vision-text p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.vision-of-future .vision-container{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+}
+
+.vision-of-future .vision-container .vision-container-1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-of-future .vision-container .vision-container-1 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.vision-of-future .vision-container .vision-container-1 p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.vision-of-future .vision-container .vision-container-1 button{
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(84, 144, 245, 1);
+    margin-top: 24px;
+}
+
+
+
+.vision-of-future .vision-container .vision-container-2{
+    background-color: rgba(198, 228, 214, 1);
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-of-future .vision-container .vision-container-2 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.vision-of-future .vision-container .vision-container-2 p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.vision-of-future .vision-container .vision-container-2 button{
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(9, 161, 92, 1);
+    margin-top: 24px;
+}
+
+
+
+
+
+.vision-of-future .vision-container .vision-container-3{
+    background-color: rgba(247, 235, 207, 1);
+    border: none;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-of-future .vision-container .vision-container-3 h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.vision-of-future .vision-container .vision-container-3 p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.vision-of-future .vision-container .vision-container-3 button{
+    color: rgba(255, 255, 255, 1);
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 194, 57, 1);
+    margin-top: 24px;
+}
+
+
+
+
+
+.vision-of-future .vision-description{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    margin-top: 32px;
+    padding: 48px 24px;
+}
+
+.vision-of-future .vision-description h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.vision-of-future .vision-description p{
+    font-size: 16px;
+    margin-top: 4px;
+}
+
+.recent-news .recent-news-div-1{
+    
 }
