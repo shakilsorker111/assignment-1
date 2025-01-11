@@ -17,6 +17,13 @@
 .button-color{
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 106, 80, 1);
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+
+body{
+    background-color: rgba(241, 241, 243, 1);
 }
 
 
@@ -223,6 +230,63 @@
     margin-top: 4px;
 }
 
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.recent-news h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.recent-news p{
+    font-size: 16px;
+    margin-top: 24px;
+}
+
 .recent-news .recent-news-div-1{
-    
+    display: flex;
+    border: none;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    padding: 48px;
+    gap: 32px;
+}
+
+.recent-news .recent-news-div-1 .recent-news-div-1-div-2 h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recent-news .recent-news-div-1 .recent-news-div-1-div-2 img{
+    margin-top: 12px;
+}
+
+.recent-news .recent-news-div-1 .recent-news-div-1-div-2 div{
+    display: flex;
+    gap: 12px;
+}
+
+.recent-news .recent-news-div-1 .recent-news-div-1-div-2 p{
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.recent-news .recent-news-div-1 .recent-news-div-1-div-2 button{
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+.recent-news-div-2{
+    display: flex;
+    padding: 48px 48px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 24px;
+    margin-top: 24px;
 }
